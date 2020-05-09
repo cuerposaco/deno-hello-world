@@ -1,6 +1,6 @@
 # Deno start
 
-Simple hello world server with Deno
+Simple "Hello World" server with Deno
 
 ## Getting started
 
