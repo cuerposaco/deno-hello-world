@@ -1,0 +1,23 @@
+{
+    "files": [
+        "index.js"
+    ],
+    "quiet": false,
+    "debug": true,
+    "fullscreen": true,
+    "extensions": [
+        ".js",
+        ".ts",
+        ".py",
+        ".json"
+    ],
+    "deno_args": [
+        "--allow-net",
+        "--reload"
+    ],
+    "execute": {
+        ".js": ["deno", "run"]
+    },
+    "fmt": false,
+    "test": true
+}

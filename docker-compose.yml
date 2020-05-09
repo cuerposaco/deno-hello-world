@@ -1,0 +1,13 @@
+version: "3.3"
+services:
+  deno-app:
+    # image: hayd/alpine-deno:latest
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    entrypoint: /root/.deno/bin/denon
+    # entrypoint: "deno run --allow-net --reload app/index.js"
